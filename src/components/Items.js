@@ -26,7 +26,9 @@ const Items = ({ image }) => {
           <Img fluid={data.file.childImageSharp.fluid} />
         </div>
         <div className="md:col-span-2 lg:col-span-2 ml-2">
-          <p className="font-black note-text">HISENSE 65inch TV w89289</p>
+          <p className="font-black note-text text-xl">
+            HISENSE 65inch TV w89289
+          </p>
           <p className="text-xs text-gray-600">1 UNIT - BLACK.</p>
         </div>
         <div className="md:col-span-1 lg:col-span-1 ml-2 md:ml-0">N235,000</div>
@@ -49,7 +51,9 @@ const Items = ({ image }) => {
           <Img fluid={data.file.childImageSharp.fluid} />
         </div>
         <div className="md:col-span-2 lg:col-span-2 ml-2">
-          <p className="font-bold note-text">HISENSE 65inch TV w89289</p>
+          <p className="font-bold note-text text-xl">
+            HISENSE 65inch TV w89289
+          </p>
           <p className="text-xs text-gray-600">1 UNIT - BLACK.</p>
         </div>
         <div className="md:col-span-1 lg:col-span-1 ml-2 md:ml-0">N235,000</div>
@@ -71,7 +75,9 @@ const Items = ({ image }) => {
           <Img fluid={data.file.childImageSharp.fluid} />
         </div>
         <div className="md:col-span-2 lg:col-span-2 ml-2">
-          <p className="font-bold note-text">HISENSE 65inch TV w89289</p>
+          <p className="font-bold note-text text-xl">
+            HISENSE 65inch TV w89289
+          </p>
           <p className="text-xs text-gray-600">1 UNIT - BLACK.</p>
         </div>
         <div className="md:col-span-1 lg:col-span-1 ml-2 md:ml-0">N235,000</div>
