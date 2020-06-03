@@ -3,7 +3,6 @@ import { useStaticQuery, graphql } from "gatsby"
 import "../components/layout"
 import Img from "gatsby-image"
 import Items from "../components/Items"
-import { Link } from "gatsby"
 import ScrollIntoView from "react-scroll-into-view"
 
 const IndexPage = () => {
@@ -31,7 +30,7 @@ const IndexPage = () => {
           className="md:mt-10"
           alt="Femi and Olamide Wedding logo"
         />
-        <p className="text-center mt-10 sm:mt-4 md:mt-10 note-text text-4xl lg:text-3xl">
+        <p className="text-center mt-6 sm:mt-4 md:mt-10 note-text text-4xl lg:text-3xl">
           {" "}
           Thank you
         </p>
@@ -48,13 +47,13 @@ const IndexPage = () => {
           <ScrollIntoView selector="#ourList">
             <button className="block md:hidden font-bold note-text text-2xl revealList m-auto">
               See our List
-              {/* <span className="font-semibold list text-xl"> */}
-              {/* <svg class="arrows">
+              <span className="font-semibold list text-xl">
+                <svg class="arrows">
                   <path class="a1" d="M0 0 L30 32 L60 0"></path>
                   <path class="a2" d="M0 20 L30 52 L60 20"></path>
                   <path class="a3" d="M0 40 L30 72 L60 40"></path>
-                </svg> */}
-              {/* </span> */}
+                </svg>
+              </span>
             </button>
           </ScrollIntoView>
         </div>

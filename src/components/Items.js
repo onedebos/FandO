@@ -1,6 +1,7 @@
 import React from "react"
 import Img from "gatsby-image"
 import { useStaticQuery, graphql } from "gatsby"
+import { Link } from "gatsby"
 
 const Items = ({ image }) => {
   const data = useStaticQuery(graphql`
@@ -20,7 +21,7 @@ const Items = ({ image }) => {
     }
   `)
   return (
-    <div className="divide-y divide-gray-300 divide-opacity-50 poppins">
+    <div className="divide-y divide-gray-300 divide-opacity-50 poppins font-bold">
       <div className="grid md:grid-cols-6 mt-8 pb-6">
         <div className="md:col-span-1">
           <Img fluid={data.file.childImageSharp.fluid} />
@@ -32,7 +33,13 @@ const Items = ({ image }) => {
         <div className="md:col-span-1 lg:col-span-1 ml-2 md:ml-0">N235,000</div>
         <div className="md:col-span-2 lg:col-span-2">
           <button className="bg-gray-700 hover:bg-blue-700 text-white font-bold py-2 min-w-full lg:min-w-0 lg:px-8 rounded ">
-            GIFT US
+            <Link
+              className="list font-bold"
+              to="https://www.flutterwave.com/ng/"
+              target="_blank"
+            >
+              GIFT US
+            </Link>
           </button>
         </div>
       </div>
@@ -48,7 +55,13 @@ const Items = ({ image }) => {
         <div className="md:col-span-1 lg:col-span-1 ml-2 md:ml-0">N235,000</div>
         <div className="md:col-span-2 lg:col-span-2">
           <button className="bg-gray-700 hover:bg-blue-700 text-white font-bold py-2 px-8 rounded min-w-full lg:min-w-0">
-            GIFT US
+            <Link
+              className="list font-bold"
+              to="https://www.flutterwave.com/ng/"
+              target="_blank"
+            >
+              GIFT US
+            </Link>
           </button>
         </div>
       </div>
@@ -63,7 +76,13 @@ const Items = ({ image }) => {
         <div className="md:col-span-1 lg:col-span-1 ml-2 md:ml-0">N235,000</div>
         <div className="md:col-span-2 lg:col-span-2">
           <button className="bg-gray-700 hover:bg-blue-700 text-white font-bold py-2 px-8 rounded min-w-full lg:min-w-0">
-            GIFT US
+            <Link
+              className="list font-bold"
+              to="https://www.flutterwave.com/ng/"
+              target="_blank"
+            >
+              GIFT US
+            </Link>
           </button>
         </div>
       </div>
