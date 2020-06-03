@@ -44,7 +44,7 @@ const IndexPage = () => {
           ~ F and O
         </p>
 
-        <div className="mt-10 text-center">
+        <div className="mt-6 text-center">
           <ScrollIntoView selector="#ourList">
             <Link className="block md:hidden font-bold note-text text-2xl revealList ">
               See our List
