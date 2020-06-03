@@ -1,7 +1,6 @@
 import React from "react"
 import Img from "gatsby-image"
 import { useStaticQuery, graphql } from "gatsby"
-import { Link } from "gatsby"
 
 const Items = ({ image }) => {
   const data = useStaticQuery(graphql`
@@ -32,14 +31,15 @@ const Items = ({ image }) => {
         </div>
         <div className="md:col-span-1 lg:col-span-1 ml-2 md:ml-0">N235,000</div>
         <div className="md:col-span-2 lg:col-span-2">
-          <button className="bg-gray-700 hover:bg-blue-700 text-white font-bold py-2 min-w-full lg:min-w-0 lg:px-8 rounded ">
-            <Link
+          <button className="bg-gray-700 hover:bg-blue-700 text-white font-bold py-2 min-w-full lg:min-w-0 lg:px-8 rounded outline-none">
+            <a
               className="list font-bold"
-              to="https://www.flutterwave.com/ng/"
+              href="https://www.flutterwave.com/ng/"
               target="_blank"
+              rel="noreferrer"
             >
               GIFT US
-            </Link>
+            </a>
           </button>
         </div>
       </div>
@@ -55,13 +55,14 @@ const Items = ({ image }) => {
         <div className="md:col-span-1 lg:col-span-1 ml-2 md:ml-0">N235,000</div>
         <div className="md:col-span-2 lg:col-span-2">
           <button className="bg-gray-700 hover:bg-blue-700 text-white font-bold py-2 px-8 rounded min-w-full lg:min-w-0">
-            <Link
+            <a
               className="list font-bold"
-              to="https://www.flutterwave.com/ng/"
+              href="https://www.flutterwave.com/ng/"
               target="_blank"
+              rel="noreferrer"
             >
               GIFT US
-            </Link>
+            </a>
           </button>
         </div>
       </div>
@@ -76,13 +77,14 @@ const Items = ({ image }) => {
         <div className="md:col-span-1 lg:col-span-1 ml-2 md:ml-0">N235,000</div>
         <div className="md:col-span-2 lg:col-span-2">
           <button className="bg-gray-700 hover:bg-blue-700 text-white font-bold py-2 px-8 rounded min-w-full lg:min-w-0">
-            <Link
+            <a
               className="list font-bold"
-              to="https://www.flutterwave.com/ng/"
+              href="https://www.flutterwave.com/ng/"
               target="_blank"
+              rel="noreferrer"
             >
               GIFT US
-            </Link>
+            </a>
           </button>
         </div>
       </div>
