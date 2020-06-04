@@ -24,7 +24,12 @@ const Items = ({ image }) => {
     <div className="divide-y divide-gray-300 divide-opacity-50 poppins font-bold">
       {items.map(item => {
         return (
-          <div className="grid md:grid-cols-6 pt-6 pb-6">
+          <div
+            className="grid md:grid-cols-6 pt-6 pb-6"
+            data-sal="slide-up"
+            data-sal-delay="300"
+            data-sal-easing="ease"
+          >
             <div className="md:col-span-1">
               <Img fluid={data.file.childImageSharp.fluid} />
             </div>

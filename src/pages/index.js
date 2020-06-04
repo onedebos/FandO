@@ -24,7 +24,7 @@ const IndexPage = () => {
   `)
   return (
     <div>
-      <div className="md:fixed left note p-16 sm:p-20 md:p-10 lg:p-20 md:min-h-screen min-h-screen">
+      <div className="left-bg md:fixed left note p-16 sm:p-20 md:p-10 lg:p-20 md:min-h-screen min-h-screen">
         <Img
           fluid={data.file.childImageSharp.fluid}
           className="md:mt-10"
@@ -58,12 +58,12 @@ const IndexPage = () => {
           </ScrollIntoView>
         </div>
       </div>
-      <div className="right p-4 rightSide min-h-screen " id="ourList">
+      <div className="right p-4 rightSide min-h-screen hero" id="ourList">
         <div className="bg-white m-1 lg:m-24 p-6 rounded-lg list">
           <p className="font-bold text-2xl lg:text-3xl">Our list</p>
           <p className="mt-0 pt-0">30 items currently in the list.</p>
           <hr className="mt-4" />
-          <div className="mt-8 font-semibold text-gray-500 list  grid-cols-6 hidden md:grid ">
+          <div className="mt-8 font-semibold text-gray-500 list lg:grid-cols-4  grid-cols-6 hidden md:grid ">
             <div className="md:col-span-3 lg:col-span-2 ">ITEM</div>
             <div className="md:col-span-1 lg:col-span-1">PRICE</div>
             <div className="md:col-span-2 lg:col-span-1"></div>
