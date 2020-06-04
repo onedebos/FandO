@@ -9,6 +9,10 @@
   padding: 0;
 }
 
+body {
+  position: relative;
+}
+
 .note {
   background-color: #f3f1e5;
 }
@@ -19,6 +23,11 @@
 
 .rightSide {
   background-color: #f4f6f8;
+}
+
+.text-bg {
+  background-color: #f5c06f;
+  padding: 10px;
 }
 
 .list {
@@ -59,6 +68,16 @@
     min-width: 70vw;
     margin-left: 30vw;
   }
+}
+
+@media (min-width: 768px) {
+  footer {
+    width: 60vw;
+  }
+}
+footer {
+  position: absolute;
+  bottom: 0;
 }
 
 .arrows {
