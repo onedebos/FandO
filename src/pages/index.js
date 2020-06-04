@@ -67,7 +67,7 @@ const IndexPage = () => {
           </div>
           <Items />
         </div>
-        <footer className="note-text">
+        <footer className="note-text mb-4">
           <div className="ml-6 md:ml-32">
             Built with{" "}
             <span className="bg-red-500 text-white px-2 text-xl">love</span> for
