@@ -51,6 +51,20 @@
   cursor: pointer;
   color: #816234;
 }
+
+@media (min-width: 768px) {
+  .left {
+    max-width: 30vw;
+  }
+}
+
+@media (min-width: 768px) {
+  .right {
+    min-width: 70vw;
+    margin-left: 30vw;
+  }
+}
+
 .arrows {
   width: 60px;
   height: 72px;
