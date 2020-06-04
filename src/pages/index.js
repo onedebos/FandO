@@ -69,8 +69,9 @@ const IndexPage = () => {
         </div>
         <footer className="note-text">
           <div className="ml-6 md:ml-32">
-            Built with <span className="bg-red-500 text-white px-2">love</span>{" "}
-            for Femi and Olamide.
+            Built with{" "}
+            <span className="bg-red-500 text-white px-2 text-xl">love</span> for
+            Femi and Olamide.
           </div>
         </footer>
       </div>
