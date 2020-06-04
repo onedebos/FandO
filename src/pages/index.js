@@ -45,8 +45,8 @@ const IndexPage = () => {
 
         <div className="mt-6 text-center">
           <ScrollIntoView selector="#ourList">
-            <button className="block md:hidden font-bold note-text text-2xl revealList m-auto outline-none">
-              <span className="text-bg rounded-lg no-outline">
+            <button className="block md:hidden font-bold note-text text-xl revealList m-auto outline-none">
+              <span className="text-bg rounded-lg outline-none">
                 See our list
               </span>
             </button>
