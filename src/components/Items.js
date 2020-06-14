@@ -12,7 +12,7 @@ const Items = ({ items }) => {
       {items.allItemsJson.nodes.map(item => {
         return (
           <div
-            className="grid md:grid-cols-6 p-6 md:m-auto"
+            className="grid md:grid-cols-6 p-6 md:m-auto sal-disabled md:sal-animate"
             data-sal="slide-up"
             // data-sal-delay="5"
             // data-sal-easing="ease"
