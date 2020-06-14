@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Femi and Olamide's Wedding Register`,
     description: `Femi and Olamide's Wedding Register`,
-    author: `@debosthefirst`,
+    author: `Adebola Adeniran`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -28,8 +28,8 @@ module.exports = {
         name: `Femi and Olamide's Wedding Register`,
         short_name: `fo`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#000000`,
+        theme_color: `#000000`,
         display: `minimal-ui`,
         icon: `src/images/OWedding.png`, // This path is relative to the root of the site.
       },

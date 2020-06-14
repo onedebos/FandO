@@ -34,7 +34,7 @@ const Countdown = () => {
   getTimeLeft()
 
   return (
-    <div className="bg-yellow-500 text-center p-2 sticky">
+    <div className="bg-yellow-500 text-center p-2 fixed w-full z-10">
       <h1 className="countdown">
         It's&nbsp;
         <span className="font-semibold">
