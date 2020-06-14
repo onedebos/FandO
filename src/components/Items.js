@@ -13,7 +13,7 @@ const Items = ({ items }) => {
         return (
           <div
             className="grid md:grid-cols-6 p-6 md:m-auto sal-disabled md:sal-animate"
-            data-sal="slide-up"
+            // data-sal="slide-up"
             // data-sal-delay="5"
             // data-sal-easing="ease"
             key={item.id}
