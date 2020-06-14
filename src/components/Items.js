@@ -14,8 +14,8 @@ const Items = ({ items }) => {
           <div
             className="grid md:grid-cols-6 p-6 md:m-auto"
             data-sal="slide-up"
-            data-sal-delay="20"
-            data-sal-easing="ease"
+            // data-sal-delay="5"
+            // data-sal-easing="ease"
             key={item.id}
           >
             <div className="md:col-span-1">
