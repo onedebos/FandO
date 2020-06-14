@@ -13,8 +13,8 @@ const Slider = ({ info }) => {
           maxWidth: 1000,
         }}
       >
-        <div className="text-white md:grid ml-4 p-8 md:p-0 md:ml-10 lg:ml-0 md:grid-cols-2 pt-4 md:pt-10 lg:pt-20">
-          <div className="col-span-1 mt-8">
+        <div className="text-white md:grid ml-4 p-8 md:p-0 md:ml-10 lg:ml-0 md:grid-cols-2 pt-10 lg:pt-20">
+          <div className="col-span-1 mt-8 ">
             <h1 className="text-3xl font-bold">
               We said <span className="text-yellow-500">Yes</span> to each
               other. <br />
