@@ -3,7 +3,7 @@ import React from "react"
 const Items = ({ items }) => {
   return (
     <div
-      className="divide-y divide-gray-300 divide-opacity-50 p-8 md:p-0 md:m-auto"
+      className="divide-y divide-gray-300 divide-opacity-50 p-8 md:p-0 m-auto"
       style={{
         margin: `auto auto`,
         maxWidth: 960,
@@ -12,7 +12,7 @@ const Items = ({ items }) => {
       {items.allItemsJson.nodes.map(item => {
         return (
           <div
-            className="grid md:grid-cols-6 p-6 md:m-auto sal-disabled md:sal-animate"
+            className="grid md:grid-cols-6 p-6 m-auto sal-disabled md:sal-animate"
             // data-sal="slide-up"
             // data-sal-delay="5"
             // data-sal-easing="ease"

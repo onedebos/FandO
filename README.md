@@ -2,6 +2,10 @@
 
 A wedding register built for my friends.
 
+## Preview
+
+![FandO Wedding register](./FandO.png)
+
 ## Live version
 
 [See it](https://olamidefemi.com)
