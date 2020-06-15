@@ -11,7 +11,7 @@ const ListHeader = ({ items }) => {
     >
       <p className="mt-0 pt-0 font-medium">
         We have <span className="text-yellow-800">{items.length} items</span>{" "}
-        currently in our wishlist list.
+        currently in our wishlist.
       </p>
       <hr className="mt-4" />
       <div className="mt-8 font-semibold text-gray-600 list lg:grid-cols-4  grid-cols-6 hidden md:grid ">
