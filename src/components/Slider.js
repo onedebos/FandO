@@ -37,7 +37,7 @@ const Slider = ({ info }) => {
               </button>
             </a>
 
-            <button className="bg-transparent hover:bg-yellow-500 text-white font-semibold hover:text-white py-2 px-4 border-2 border-yellow-500 hover:border-transparent rounded-lg md:ml-0 mt-2 md:mt-4 md:ml-4 w-full sm:w-auto ">
+            <button className="bg-transparent border-yellow-gold hover:bg-yellow-500 text-white font-semibold hover:text-white py-2 px-4 border-2 border-yellow-500 hover:border-transparent rounded-lg md:ml-0 mt-2 md:mt-4 md:ml-4 w-full sm:w-auto ">
               <ScrollIntoView selector="#ourList">
                 See our gifts register
               </ScrollIntoView>
