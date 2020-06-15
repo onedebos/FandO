@@ -1,14 +1,18 @@
-import React from "react"
+import React, { useState } from "react"
 import "./Note.css"
 
 const Note = () => {
+  const [submitted, setSubmitted] = useState("")
+
+  const handleSubmit = () => {
+    setSubmitted("Thank you for your kind words!")
+  }
   return (
     <div className="success text-white pb-10 pt-10 mt-10">
       <form
         name="contact"
         method="POST"
         data-netlify="true"
-        action="/success"
         className="container m-auto p-8 md:p-0 max-w-md lg:max-w-lg pt-20"
       >
         <div className="text-center text-sm md:text-base">
@@ -35,8 +39,8 @@ const Note = () => {
           <input
             type="email"
             name="email"
-            placeholder="enter your email"
-            className="bg-gray-400 shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+            placeholder="what is your e-mail?"
+            className="bg-gray-400 shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline font-medium"
           />
         </div>
 
@@ -46,19 +50,21 @@ const Note = () => {
           </label>
           <textarea
             name="message"
-            placeholder="enter your message"
+            placeholder="say something nice...."
             rows="5"
-            className="bg-gray-400 font-semibold shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+            className="bg-gray-400 shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline font-medium"
           ></textarea>
         </div>
         <p className="text-center">
           <button
             type="submit"
+            onClick={handleSubmit}
             className="bg-yellow-500 p-3 rounded-md text-black font-semibold w-full md:w-3/4 mt-4"
           >
             Send message
           </button>
         </p>
+        <p className="text-center mt-4">{submitted ? submitted : <> </>}</p>
       </form>
     </div>
   )
