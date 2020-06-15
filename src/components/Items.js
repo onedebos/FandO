@@ -12,7 +12,7 @@ const Items = ({ items }) => {
       {items.allItemsJson.nodes.map(item => {
         return (
           <div
-            className="grid md:grid-cols-6 p-6 m-auto"
+            className="grid md:grid-cols-6 p-6 m-auto sal-disabled md:sal-animate"
             // data-sal="slide-up"
             // data-sal-delay="5"
             // data-sal-easing="ease"
@@ -22,10 +22,6 @@ const Items = ({ items }) => {
               <img
                 src={`${item.imageUrl}`}
                 alt="Femi and Olamide's wedding register"
-                data-sal="slide-up"
-                data-sal-delay="5"
-                data-sal-easing="ease"
-                className="sal-disabled md:sal-animate"
               />
             </div>
             <div className="md:col-span-2 lg:col-span-2 ml-2">
