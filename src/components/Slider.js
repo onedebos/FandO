@@ -6,7 +6,7 @@ import ScrollIntoView from "react-scroll-into-view"
 
 const Slider = ({ info }) => {
   return (
-    <div className="bg-slider min-h-screen min-w-full pb-5">
+    <div className="bg-slider min-h-full md:min-h-3/4 min-w-full pb-5 md:pb-10">
       <div
         style={{
           margin: `auto auto`,
@@ -50,9 +50,6 @@ const Slider = ({ info }) => {
               alt="Femi and Olamide Wedding logo"
             />
           </div>
-        </div>
-        <div className="hiddden md:block p-10">
-          <img src="https://res.cloudinary.com/onedebeos/image/upload/e_grayscale,f_auto,q_auto,r_9/v1592206601/femi/WEDDING-MOMENT-CLASSIC-RING-EXCHANGE-004993-Custom_jad77i.jpg" />
         </div>
       </div>
     </div>

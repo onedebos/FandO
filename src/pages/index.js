@@ -38,7 +38,15 @@ const IndexPage = () => {
     <div>
       <Layout>
         <Slider info={info} />
-
+        {/* <div
+          className="hiddden md:block p-10"
+          style={{
+            maxWidth: "960px",
+            margin: "0 auto",
+          }}
+        >
+          <img src="https://res.cloudinary.com/onedebeos/image/upload/e_grayscale,f_auto,q_auto,r_9/v1592206601/femi/WEDDING-MOMENT-CLASSIC-RING-EXCHANGE-004993-Custom_jad77i.jpg" />
+        </div> */}
         <GiftRegistry />
         <ListHeader items={info.allItemsJson.nodes} />
         <Items items={info} />
