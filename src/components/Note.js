@@ -4,14 +4,27 @@ import "./Note.css"
 const Note = () => {
   const [submitted, setSubmitted] = useState("")
 
-  const handleSubmit = () => {
+  const handleSubmit = e => {
+    e.preventDefault()
     setSubmitted("Thank you for your kind words!")
+  }
+
+  if (submitted) {
+    return (
+      <div className="pb-10 m-auto bg-black text-white text-center pt-20 success">
+        <p>We have received your message.</p>
+        <p className="text-2xl font-bold mb-8">
+          Thank you for your kind words.
+        </p>
+      </div>
+    )
   }
   return (
     <div className="success text-white pb-10 pt-10 mt-10">
       <form
         name="contact"
         method="POST"
+        onSubmit={handleSubmit}
         data-netlify="true"
         className="container m-auto p-8 md:p-0 max-w-md lg:max-w-lg pt-20"
       >
@@ -64,7 +77,9 @@ const Note = () => {
             Send message
           </button>
         </p>
-        <p className="text-center mt-4">{submitted ? submitted : <> </>}</p>
+        {/* <p className="text-center mt-4 font-semibold">
+          {submitted ? submitted : <> </>}
+        </p> */}
       </form>
     </div>
   )
