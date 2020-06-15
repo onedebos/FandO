@@ -23,7 +23,7 @@ const Layout = ({ children }) => {
       >
         <Countdown />
         <main>{children}</main>
-        <footer className="bg-black text-white text-center p-3">
+        <footer className="bg-black text-white text-center p-3 success text-sm md:text-base">
           <a
             href="https://adebola.dev"
             target="_blank"

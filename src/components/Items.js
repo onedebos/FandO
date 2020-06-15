@@ -3,21 +3,15 @@ import React from "react"
 const Items = ({ items }) => {
   return (
     <div
-      className="divide-y divide-gray-300 divide-opacity-50 p-8 md:p-0 m-auto"
-      style={{
-        margin: `auto auto`,
-        maxWidth: 960,
-      }}
+      className="divide-y divide-gray-300 divide-opacity-50 p-8 md:p-0 m-auto md:max-w-2xl lg:max-w-5xl"
+      // style={{
+      //   margin: `auto auto`,
+      //   maxWidth: 960,
+      // }}
     >
       {items.allItemsJson.nodes.map(item => {
         return (
-          <div
-            className="grid md:grid-cols-6 p-6 m-auto"
-            // data-sal="slide-up"
-            // data-sal-delay="5"
-            // data-sal-easing="ease"
-            key={item.id}
-          >
+          <div className="grid md:grid-cols-6 p-6 m-auto" key={item.id}>
             <div className="md:col-span-1">
               <img
                 src={`${item.imageUrl}`}

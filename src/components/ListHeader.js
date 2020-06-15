@@ -14,7 +14,7 @@ const ListHeader = ({ items }) => {
         currently in our wishlist.
       </p>
       <hr className="mt-4" />
-      <div className="mt-8 font-semibold text-gray-600 list lg:grid-cols-4  grid-cols-6 hidden md:grid ">
+      <div className="mt-8 font-semibold text-gray-600 list lg:grid-cols-4  grid-cols-6 hidden md:grid md:max-w-2xl m-auto lg:max-w-5xl">
         <div className="md:col-span-3 lg:col-span-2 md:text-2xl text-black">
           ITEM
         </div>
