@@ -15,8 +15,12 @@ const ListHeader = ({ items }) => {
       </p>
       <hr className="mt-4" />
       <div className="mt-8 font-semibold text-gray-600 list lg:grid-cols-4  grid-cols-6 hidden md:grid ">
-        <div className="md:col-span-3 lg:col-span-2 md:text-2xl">ITEM</div>
-        <div className="md:col-span-1 lg:col-span-1 md:text-2xl">PRICE</div>
+        <div className="md:col-span-3 lg:col-span-2 md:text-2xl text-black">
+          ITEM
+        </div>
+        <div className="md:col-span-1 lg:col-span-1 md:text-2xl text-black">
+          PRICE
+        </div>
         <div className="md:col-span-2 lg:col-span-1"></div>
       </div>
     </div>

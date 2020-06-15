@@ -19,7 +19,10 @@ const Items = ({ items }) => {
             key={item.id}
           >
             <div className="md:col-span-1">
-              <img src={`${item.imageUrl}`} />
+              <img
+                src={`${item.imageUrl}`}
+                alt="Femi and Olamide's wedding register"
+              />
             </div>
             <div className="md:col-span-2 lg:col-span-2 ml-2">
               <p className="font-semibold note-text mt-4 md:ml-2 lg:text-xl">
@@ -39,7 +42,7 @@ const Items = ({ items }) => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <button className="w-full md:w-auto list py-2 px-10 font-bold bg-gray-700 hover:bg-blue-700 text-white font-bold  rounded outline-none">
+                  <button className="w-full md:w-auto list py-2 px-10 font-bold bg-black text-yellow-gold hover:bg-yellow-500 hover:text-black font-bold rounded outline-none ">
                     GIFT US
                   </button>
                 </a>
