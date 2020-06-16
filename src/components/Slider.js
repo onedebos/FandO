@@ -48,21 +48,21 @@ const Slider = ({ info }) => {
               </ScrollIntoView>
             </button>
 
-            <a
+            {/* <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=NWN1YzdhcHNrczdjdmxjNW1vc20wdWhwNHEgYWRlYm9sYS5yYi5qc0Bt&amp;tmsrc=adebola.rb.js%40gmail.com"
+              href="https://calendar.google.com/event?action=TEMPLATE&tmeid=MzR2Nm1nNWxlMTlrMjk1MmJ1dTk3cDhmdWsgYWRlYm9sYS5yYi5qc0Bt&tmsrc=adebola.rb.js%40gmail.com"
             >
               <button className="bg-transparent border-yellow-gold hover:bg-yellow-500 text-white font-semibold hover:text-white py-2 px-4 border-2 border-yellow-500 hover:border-transparent rounded-lg md:ml-0 mt-2 md:mt-4 w-full sm:w-auto md:ml-4 lg:ml-4">
                 Add to calendar
               </button>
-            </a>
+            </a> */}
           </div>
           <div className="col-span-1 ml-12 hidden md:block md:pr-6 md:mt-20 lg:mt-0 lg:pr-0">
             <Img
               fluid={info.file.childImageSharp.fluid}
               className=""
-              alt="Femi and Olamide Wedding logo"
+              alt="Femi and Olamide Wedd ing logo"
             />
           </div>
         </div>
