@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Femi and Olamide's Wedding Register`,
+    title: `Femi and Olamide`,
     description: `Femi and Olamide's Wedding Register`,
     author: `Adebola Adeniran`,
   },

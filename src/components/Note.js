@@ -3,10 +3,20 @@ import "./Note.css"
 
 const Note = () => {
   const [submitted, setSubmitted] = useState("")
+  const [name, setName] = useState("")
+  const [email, setEmail] = useState("")
+  const [message, setMessage] = useState("")
 
   const handleSubmit = e => {
+    fetch("/", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: encode({ "form-name": "contact", name, email, message }),
+    })
+      .then(() => setSubmitted("Thank you for your kind words!"))
+      .catch(error => alert(error))
+
     e.preventDefault()
-    setSubmitted("Thank you for your kind words!")
   }
 
   if (submitted) {
@@ -22,12 +32,11 @@ const Note = () => {
   return (
     <div className="success text-white pb-10 pt-10 mt-10">
       <form
-        name="contact"
-        method="POST"
         onSubmit={handleSubmit}
-        data-netlify="true"
+        name="contact"
         className="container m-auto p-8 md:p-0 max-w-md lg:max-w-lg pt-20"
       >
+        <input type="hidden" name="form-name" value="contact" />
         <div className="text-center text-sm md:text-base">
           Want to tell us something?
         </div>
@@ -39,8 +48,10 @@ const Note = () => {
             Your Name:{" "}
           </label>
           <input
+            onChange={({ target }) => setName(target.name)}
             type="text"
             name="name"
+            value={name}
             placeholder="enter your name"
             className="bg-gray-400 shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline font-medium"
           />
@@ -52,6 +63,8 @@ const Note = () => {
           <input
             type="email"
             name="email"
+            value={email}
+            onChange={({ target }) => setEmail(target.email)}
             placeholder="what is your e-mail?"
             className="bg-gray-400 shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline font-medium"
           />
@@ -65,6 +78,8 @@ const Note = () => {
             name="message"
             placeholder="say something nice...."
             rows="5"
+            onChange={({ target }) => setName(target.message)}
+            value={message}
             className="bg-gray-400 shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline font-medium"
           ></textarea>
         </div>
