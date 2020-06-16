@@ -1,6 +1,12 @@
 import React, { useState } from "react"
 import "./Note.css"
 
+const encode = data => {
+  return Object.keys(data)
+    .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+    .join("&")
+}
+
 const Note = () => {
   const [submitted, setSubmitted] = useState("")
   const [name, setName] = useState("")
@@ -21,7 +27,12 @@ const Note = () => {
 
   if (submitted) {
     return (
-      <div className="pb-10 m-auto bg-black text-white text-center pt-20 success">
+      <div
+        className="pb-10 m-auto bg-black text-white text-center pt-20 success"
+        data-sal="slide-up"
+        data-sal-delay="5"
+        data-sal-easing="ease"
+      >
         <p>We have received your message.</p>
         <p className="text-2xl font-bold mb-8">
           Thank you for your kind words.
@@ -37,18 +48,31 @@ const Note = () => {
         className="container m-auto p-8 md:p-0 max-w-md lg:max-w-lg pt-20"
       >
         <input type="hidden" name="form-name" value="contact" />
-        <div className="text-center text-sm md:text-base">
+        <div
+          className="text-center text-sm md:text-base"
+          data-sal="slide-up"
+          data-sal-delay="5"
+          data-sal-easing="ease"
+        >
           Want to tell us something?
         </div>
-        <div className="text-center text-2xl font-semibold">
+        <div
+          className="text-center text-2xl font-semibold"
+          data-sal="slide-up"
+          data-sal-delay="5"
+          data-sal-easing="ease"
+        >
           Leave us a message
         </div>
         <div className="mb-4 mt-4">
-          <label className="block text-gray-300 text-sm font-bold mb-2">
+          <label
+            htmlFor="name"
+            className="block text-gray-300 text-sm font-bold mb-2"
+          >
             Your Name:{" "}
           </label>
           <input
-            onChange={({ target }) => setName(target.name)}
+            onChange={({ target }) => setName(target.value)}
             type="text"
             name="name"
             value={name}
@@ -57,28 +81,34 @@ const Note = () => {
           />
         </div>
         <div>
-          <label className="block text-gray-300 text-sm font-bold mb-2">
+          <label
+            htmlFor="email"
+            className="block text-gray-300 text-sm font-bold mb-2"
+          >
             Your Email:
           </label>
           <input
             type="email"
             name="email"
             value={email}
-            onChange={({ target }) => setEmail(target.email)}
+            onChange={({ target }) => setEmail(target.value)}
             placeholder="what is your e-mail?"
             className="bg-gray-400 shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline font-medium"
           />
         </div>
 
         <div>
-          <label className="block text-gray-300 text-sm font-bold mb-2 mt-4">
+          <label
+            htmlFor="message"
+            className="block text-gray-300 text-sm font-bold mb-2 mt-4"
+          >
             Message:
           </label>
           <textarea
             name="message"
             placeholder="say something nice...."
             rows="5"
-            onChange={({ target }) => setName(target.message)}
+            onChange={({ target }) => setMessage(target.value)}
             value={message}
             className="bg-gray-400 shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline font-medium"
           ></textarea>
