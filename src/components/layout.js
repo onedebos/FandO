@@ -29,16 +29,8 @@ const Layout = ({ children }) => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            © {new Date().getFullYear()}, Built with{" "}
-            <svg
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              className="fill-current inline text-red-600 mr-1"
-            >
-              <path d="M12 4.435c-1.989-5.399-12-4.597-12 3.568 0 4.068 3.06 9.481 12 14.997 8.94-5.516 12-10.929 12-14.997 0-8.118-10-8.999-12-3.568z"></path>
-            </svg>
-            for <span className="font-bold"> Olamide and Femi</span>
+            © {new Date().getFullYear()}, Built with ❤️ for{" "}
+            <span className="font-bold"> Olamide and Femi</span>
           </a>
         </footer>
       </div>

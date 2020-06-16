@@ -43,10 +43,20 @@ const Note = () => {
         className="container m-auto p-8 md:p-0 max-w-md lg:max-w-lg pt-20"
       >
         <input type="hidden" name="form-name" value="contact" />
-        <div className="text-center text-sm md:text-base">
+        <div
+          className="text-center text-sm md:text-base"
+          data-sal="slide-up"
+          data-sal-delay="5"
+          data-sal-easing="ease"
+        >
           Want to tell us something?
         </div>
-        <div className="text-center text-2xl font-semibold">
+        <div
+          className="text-center text-2xl font-semibold"
+          data-sal="slide-up"
+          data-sal-delay="5"
+          data-sal-easing="ease"
+        >
           Leave us a message
         </div>
         <div
@@ -66,7 +76,7 @@ const Note = () => {
             type="text"
             name="name"
             value={name}
-            placeholder="enter your name"
+            placeholder="tell us your name"
             className="bg-gray-400 shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline font-medium"
           />
         </div>
@@ -82,7 +92,7 @@ const Note = () => {
             name="email"
             value={email}
             onChange={({ target }) => setEmail(target.value)}
-            placeholder="what is your e-mail?"
+            placeholder="tell us your email"
             className="bg-gray-400 shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline font-medium"
           />
         </div>
