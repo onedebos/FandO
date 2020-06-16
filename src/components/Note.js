@@ -27,12 +27,7 @@ const Note = () => {
 
   if (submitted) {
     return (
-      <div
-        className="pb-10 m-auto bg-black text-white text-center pt-20 success"
-        data-sal="slide-up"
-        data-sal-delay="5"
-        data-sal-easing="ease"
-      >
+      <div className="pb-10 m-auto bg-black text-white text-center pt-20 success">
         <p>We have received your message.</p>
         <p className="text-2xl font-bold mb-8">
           Thank you for your kind words.
@@ -48,23 +43,18 @@ const Note = () => {
         className="container m-auto p-8 md:p-0 max-w-md lg:max-w-lg pt-20"
       >
         <input type="hidden" name="form-name" value="contact" />
-        <div
-          className="text-center text-sm md:text-base"
-          data-sal="slide-up"
-          data-sal-delay="5"
-          data-sal-easing="ease"
-        >
+        <div className="text-center text-sm md:text-base">
           Want to tell us something?
         </div>
+        <div className="text-center text-2xl font-semibold">
+          Leave us a message
+        </div>
         <div
-          className="text-center text-2xl font-semibold"
+          className="mb-4 mt-4"
           data-sal="slide-up"
           data-sal-delay="5"
           data-sal-easing="ease"
         >
-          Leave us a message
-        </div>
-        <div className="mb-4 mt-4">
           <label
             htmlFor="name"
             className="block text-gray-300 text-sm font-bold mb-2"
@@ -80,7 +70,7 @@ const Note = () => {
             className="bg-gray-400 shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline font-medium"
           />
         </div>
-        <div>
+        <div data-sal="slide-up" data-sal-delay="5" data-sal-easing="ease">
           <label
             htmlFor="email"
             className="block text-gray-300 text-sm font-bold mb-2"
@@ -97,7 +87,7 @@ const Note = () => {
           />
         </div>
 
-        <div>
+        <div data-sal="slide-up" data-sal-delay="5" data-sal-easing="ease">
           <label
             htmlFor="message"
             className="block text-gray-300 text-sm font-bold mb-2 mt-4"
@@ -122,9 +112,6 @@ const Note = () => {
             Send message
           </button>
         </p>
-        {/* <p className="text-center mt-4 font-semibold">
-          {submitted ? submitted : <> </>}
-        </p> */}
       </form>
     </div>
   )
