@@ -12,24 +12,40 @@ const Note = () => {
   const [name, setName] = useState("")
   const [email, setEmail] = useState("")
   const [message, setMessage] = useState("")
+  const [submitting, setSubmitting] = useState(false)
 
   const handleSubmit = e => {
+    setSubmitting(true)
     fetch("/", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: encode({ "form-name": "contact", name, email, message }),
     })
-      .then(() => setSubmitted("Thank you for your kind words!"))
+      .then(() => {
+        setSubmitting(false)
+        setSubmitted("Thank you for your kind words!")
+      })
       .catch(error => alert(error))
 
     e.preventDefault()
+  }
+
+  if (submitting) {
+    return (
+      <div className="pb-10 m-auto bg-black text-white text-center pt-20 success">
+        <p></p>
+        <p className="text-2xl font-bold mb-8 text-yellow-500">
+          One second, sending your message...
+        </p>
+      </div>
+    )
   }
 
   if (submitted) {
     return (
       <div className="pb-10 m-auto bg-black text-white text-center pt-20 success">
         <p>We have received your message.</p>
-        <p className="text-2xl font-bold mb-8">
+        <p className="text-2xl font-bold mb-8 text-yellow-500">
           Thank you for your kind words.
         </p>
       </div>
