@@ -9,11 +9,23 @@
 }
 
 .hold-out {
-  background-image: url("https://res.cloudinary.com/onedebeos/image/upload/f_auto,q_auto/v1592432889/femi/white_dnco4t.jpg");
+  background-image: url("https://res.cloudinary.com/onedebeos/image/upload/f_auto,q_auto/v1592433955/femi/hold_me-min_ghukcp.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: 35% 50%;
+  background-position: 15% 40%;
 
   box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.4);
   background-size: cover;
+}
+
+@media (min-width: 768px) and (max-width: 968px) {
+  .hold-out {
+    background-image: url("https://res.cloudinary.com/onedebeos/image/upload/f_auto,q_auto/v1592433955/femi/hold_me-min_ghukcp.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 15% 67%;
+
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.4);
+    background-size: cover;
+  }
 }
