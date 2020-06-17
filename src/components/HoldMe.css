@@ -1,0 +1,19 @@
+.hold-me {
+  background-image: url("https://res.cloudinary.com/onedebeos/image/upload/c_scale,f_auto,h_3925,q_auto/v1592426794/femi/Together_they_Grew__abldi4.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 35% 50%;
+
+  box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.4);
+  background-size: cover;
+}
+
+.hold-out {
+  background-image: url("https://res.cloudinary.com/onedebeos/image/upload/f_auto,q_auto/v1592432889/femi/white_dnco4t.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 35% 50%;
+
+  box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.4);
+  background-size: cover;
+}

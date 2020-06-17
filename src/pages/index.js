@@ -8,6 +8,7 @@ import GiftRegistry from "../components/GiftRegistry"
 import ListHeader from "../components/ListHeader"
 import Note from "../components/Note"
 import { Helmet } from "react-helmet"
+import HoldMe from "../components/HoldMe"
 
 const IndexPage = () => {
   const info = useStaticQuery(graphql`
@@ -22,7 +23,7 @@ const IndexPage = () => {
           imageUrl
         }
       }
-      file(relativePath: { eq: "OWedding.png" }, relativeDirectory: {}) {
+      logo: file(relativePath: { eq: "OWedding.png" }, relativeDirectory: {}) {
         id
         childImageSharp {
           fluid {
@@ -45,9 +46,11 @@ const IndexPage = () => {
       </Helmet>
       <Layout>
         <Slider info={info} />
+        <HoldMe classToUse={"hold-me"} />
         <GiftRegistry />
         <ListHeader items={info.allItemsJson.nodes} />
         <Items items={info} />
+        <HoldMe classToUse={"hold-out"} />
         <Note />
       </Layout>
     </div>

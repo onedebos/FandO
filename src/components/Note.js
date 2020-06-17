@@ -52,7 +52,7 @@ const Note = () => {
     )
   }
   return (
-    <div className="success text-white pb-10 pt-10 mt-10" id="message">
+    <div className="success text-white pb-10 pt-20" id="message">
       <form
         onSubmit={handleSubmit}
         name="contact"

@@ -6,7 +6,7 @@ import ScrollIntoView from "react-scroll-into-view"
 
 const Slider = ({ info }) => {
   return (
-    <div className="bg-slider min-h-full md:min-h-3/4 min-w-full pb-5 md:pb-10">
+    <div className="bg-slider min-h-full md:min-h-screen lg:min-h-screen min-w-full pb-5 md:pb-10">
       <div
         style={{
           margin: `auto auto`,
@@ -14,7 +14,7 @@ const Slider = ({ info }) => {
         }}
       >
         <div className="text-white md:grid ml-4 p-8 md:p-0 md:ml-10 lg:ml-0 md:grid-cols-2 pt-12 lg:pt-20">
-          <div className="col-span-1 mt-10 md:mt-20 ">
+          <div className="col-span-1 mt-10 md:mt-40 sm:pt-36 md:pt-40 lg:mt-40">
             <h1 className="text-3xl font-bold leading-tight md:leading-normal">
               We said <span className="text-yellow-gold">Yes</span> to each
               other. <br />
@@ -23,8 +23,8 @@ const Slider = ({ info }) => {
               next journey together. 
             </h1>
             <p className="mt-4 text-yellow-gold text-medium pb-4 md:pb-8">
-              here's your official guide to everything you need to know about
-              our wedding plans.
+              here's your official guide to everything you need
+              <br /> to know about our wedding plans.
             </p>
 
             <a
@@ -60,9 +60,9 @@ const Slider = ({ info }) => {
           </div>
           <div className="col-span-1 ml-12 hidden md:block md:pr-6 md:mt-20 lg:mt-0 lg:pr-0">
             <Img
-              fluid={info.file.childImageSharp.fluid}
-              className=""
-              alt="Femi and Olamide Wedd ing logo"
+              fluid={info.logo.childImageSharp.fluid}
+              className="md:hidden"
+              alt="Femi and Olamide Wedding logo"
             />
           </div>
         </div>
