@@ -36,12 +36,9 @@ const Countdown = () => {
   return (
     <div className="thank-you text-center p-2 fixed w-full z-10 mb-8">
       <h1 className="countdown">
-        It's&nbsp;
         <span className="font-semibold">
-          {timeToShow.days} days {timeToShow.hours} hours {timeToShow.minutes}
-          &nbsp;minutes and {timeToShow.seconds} seconds
-        </span>{" "}
-        till our day!
+          Thank you so much for all the love you showed us!
+        </span>
       </h1>
     </div>
   )
