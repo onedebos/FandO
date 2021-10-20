@@ -1,5 +1,5 @@
 .hold-me {
-  background-image: url("https://res.cloudinary.com/onedebeos/image/upload/c_scale,f_auto,h_3925,q_auto/v1592426794/femi/Together_they_Grew__abldi4.jpg");
+  background-image: url("https://res.cloudinary.com/ds1xxqhey/image/upload/v1634686630/KOFOPREWEDDING1519_rioeqy.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: 35% 50%;
@@ -9,7 +9,7 @@
 }
 
 .hold-out {
-  background-image: url("https://res.cloudinary.com/onedebeos/image/upload/f_auto,q_auto/v1592433955/femi/hold_me-min_ghukcp.jpg");
+  background-image: url("https://res.cloudinary.com/ds1xxqhey/image/upload/v1634686619/KOFOPREWEDDING1811_wborjd.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: 15% 40%;
@@ -20,7 +20,7 @@
 
 @media (min-width: 768px) and (max-width: 968px) {
   .hold-out {
-    background-image: url("https://res.cloudinary.com/onedebeos/image/upload/f_auto,q_auto/v1592433955/femi/hold_me-min_ghukcp.jpg");
+    background-image: url("https://res.cloudinary.com/ds1xxqhey/image/upload/v1634686630/KOFOPREWEDDING1618_bl8mih.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: 15% 67%;

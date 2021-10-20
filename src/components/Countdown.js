@@ -9,7 +9,7 @@ const Countdown = () => {
   })
 
   const getTimeLeft = () => {
-    const countDownDate = new Date("June 19, 2020 11:00:25").getTime()
+    const countDownDate = new Date("November 6, 2021 10:30:00").getTime()
 
     setInterval(function () {
       const now = new Date().getTime()
@@ -37,7 +37,7 @@ const Countdown = () => {
     <div className="thank-you text-center p-2 fixed w-full z-10 mb-8">
       <h1 className="countdown">
         <span className="font-semibold">
-          Thank you so much for all the love you showed us!
+         {timeToShow.days} days, {timeToShow.hours} hours, {timeToShow.minutes} minutes, {timeToShow.seconds} seconds
         </span>
       </h1>
     </div>
