@@ -29,7 +29,7 @@ const Layout = ({ children }) => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            © {new Date().getFullYear()}, Built with ❤️ for{" "}
+            © {new Date().getFullYear()}, Built with ❤️  for{" "}
             <span className="font-bold"> Kofoworola and Femi</span>
           </a>
         </footer>

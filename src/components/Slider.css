@@ -19,7 +19,7 @@
 
 @media (min-width: 960px) {
   .bg-slider {
-    background: url("https://res.cloudinary.com/ds1xxqhey/image/upload/v1634686621/KOFOPREWEDDING1750_pse0e3.jpg");
+    background: url("https://res.cloudinary.com/ds1xxqhey/image/upload/v1634937393/KOFO-PREWEDDING1811_cihbw2.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center;
@@ -33,4 +33,10 @@
 
 .slider-text {
   color: #fcfdbf;
+}
+
+@media screen and (max-width: 450px) {
+  .unwantedText {
+    display: none;
+  }
 }

@@ -9,7 +9,7 @@ const Items = ({ items }) => {
             <div className="md:col-span-1">
               <img
                 src={`${item.imageUrl}`}
-                alt="Femi and Olamide's wedding register"
+                alt="Femi and Kofoworola's wedding register"
                 data-sal="slide-up"
                 data-sal-delay="5"
                 data-sal-easing="ease"
@@ -30,7 +30,7 @@ const Items = ({ items }) => {
             <div className="md:col-span-2 lg:col-span-2">
               <div className="col-span-6 mt-4 md:mt-5">
                 <a
-                  href="https://flutterwave.com/pay/femiolamideollf"
+                  href="https://flutterwave.com/pay/kofofemit0fx"
                   target="_blank"
                   rel="noreferrer"
                 >

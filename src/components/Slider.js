@@ -22,7 +22,7 @@ const Slider = ({ info }) => {
               <span className="text-yellow-gold">Yes</span> to joining us on our
               next journey together. 
             </h1>
-            <p className="mt-4 text-yellow-gold text-medium pb-4 md:pb-8">
+            <p className="unwantedText mt-4 text-yellow-gold text-medium pb-4 md:pb-8">
               here's your official guide to everything you need
               <br /> to know about our wedding plans.
             </p>
@@ -62,7 +62,7 @@ const Slider = ({ info }) => {
             <Img
               fluid={info.logo.childImageSharp.fluid}
               className="md:hidden"
-              alt="Femi and Olamide Wedding logo"
+              alt="Femi and Kofoworola's Wedding logo"
             />
           </div>
         </div>
