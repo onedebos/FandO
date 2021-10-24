@@ -1,29 +1,55 @@
 .hold-me {
-  background-image: url("https://res.cloudinary.com/ds1xxqhey/image/upload/v1634686630/KOFOPREWEDDING1519_rioeqy.jpg");
+  background-image: url("https://res.cloudinary.com/ds1xxqhey/image/upload/v1634937380/KOFO-PREWEDDING1487_x1dspd.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 35% 50%;
+
+  box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.4);
+  background-size: cover;
+}
+
+@media (min-width: 400px) and (max-width: 650px){
+  .hold-me{
+    background-image: url("https://res.cloudinary.com/ds1xxqhey/image/upload/v1635102820/newkofoandfemi_s5qyjt.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
 
   box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.4);
   background-size: cover;
+  }
 }
 
 .hold-out {
-  background-image: url("https://res.cloudinary.com/ds1xxqhey/image/upload/v1634937388/KOFO-PREWEDDING1750_skhg19.jpg");
+  background-image: url("https://res.cloudinary.com/ds1xxqhey/image/upload/v1634937383/KOFO-PREWEDDING1519_imwyjv.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: center;
+  background-position: 15% 40%;
 
   box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.4);
   background-size: cover;
 }
 
-@media (min-width: 768px) and (max-width: 968px) {
+@media(min-width: 400px) and (max-width: 650px){
   .hold-out {
-    background-image: url("https://res.cloudinary.com/ds1xxqhey/image/upload/v1634686630/KOFOPREWEDDING1618_bl8mih.jpg");
+    background-image: url("https://res.cloudinary.com/ds1xxqhey/image/upload/v1635103507/prewedding_pnll6w.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center;
+    background-position: 15% 40%;
+
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.4);
+    background-size: cover;
+  }
+}
+
+
+
+@media (min-width: 768px) and (max-width: 968px) {
+  .hold-out {
+    background-image: url("https://res.cloudinary.com/ds1xxqhey/image/upload/v1635103975/laughingprewedding_lgodpy.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 15% 67%;
 
     box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.4);
     background-size: cover;

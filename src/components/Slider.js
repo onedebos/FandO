@@ -15,14 +15,16 @@ const Slider = ({ info }) => {
       >
         <div className="text-white md:grid ml-4 p-8 md:p-0 md:ml-10 lg:ml-0 md:grid-cols-2 pt-12 lg:pt-20">
           <div className="col-span-1 mt-10 md:mt-40 sm:pt-36 md:pt-40 lg:mt-40">
-            <h1 className="text-3xl font-bold leading-tight md:leading-normal">
+            {/* <div className= 'h-64 md:hidden'></div> */}
+            <h1 className="pt-64 pb-3 md:pb-0 md:pt-0 text-xl md:text-3xl font-bold leading-tight md:leading-normal">
               We said <span className="text-yellow-gold">Yes</span> to each
               other. <br />
-              Now, we're so thrilled you said{" "}
-              <span className="text-yellow-gold">Yes</span> to joining us on our
-              next journey together. 
+
             </h1>
-            <p className="unwantedText mt-4 text-yellow-gold text-medium pb-4 md:pb-8">
+            <h2 className = 'md:pb-3 pb-10 text-xl md:text-3xl font-bold leading-tight md:leading-normal'> <span>Now, we're so thrilled you said</span>{" "}
+              <span className="text-yellow-gold">Yes</span> to joining us on our
+              next journey together.</h2>
+            <p className="hidden md:block mt-4 text-yellow-gold text-medium pb-4 md:pb-8">
               here's your official guide to everything you need
               <br /> to know about our wedding plans.
             </p>
@@ -62,7 +64,7 @@ const Slider = ({ info }) => {
             <Img
               fluid={info.logo.childImageSharp.fluid}
               className="md:hidden"
-              alt="Femi and Kofoworola's Wedding logo"
+              alt="Femi and Olamide Wedding logo"
             />
           </div>
         </div>
