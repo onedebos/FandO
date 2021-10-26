@@ -1,5 +1,5 @@
 .bg-slider {
-  background-image: url("https://res.cloudinary.com/ds1xxqhey/image/upload/v1634686628/KOFOPREWEDDING1775_irqkvt.jpg");
+  background-image: url("https://res.cloudinary.com/ds1xxqhey/image/upload/v1635238709/KOFO-PREWEDDING1811_sn2amr.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: 35% 50%;
@@ -8,18 +8,18 @@
   background-size: cover;
 }
 
-/* @media (min-width: 768px) and (max-width: 960px) {
+ @media (min-width: 400px) and (max-width: 700px) {
   .bg-slider {
-    background: url("https://res.cloudinary.com/onedebeos/image/upload/f_auto,o_100,q_auto/v1592426772/femi/Light_and_Love__lviulp.jpg")
+    background: url("https://res.cloudinary.com/ds1xxqhey/image/upload/v1634686628/KOFOPREWEDDING1775_irqkvt.jpg")
       no-repeat center fixed;
     box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.4);
     background-size: cover;
   }
-} */
+}
 
 @media (min-width: 960px) {
   .bg-slider {
-    background: url("https://res.cloudinary.com/ds1xxqhey/image/upload/v1635104491/slider1_is1e2i.png");
+    background: url("https://res.cloudinary.com/ds1xxqhey/image/upload/v1635238709/KOFO-PREWEDDING1811_sn2amr.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center;
