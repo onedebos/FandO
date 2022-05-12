@@ -30,7 +30,7 @@ const Layout = ({ children }) => {
             rel="noopener noreferrer"
           >
             © {new Date().getFullYear()}, Built with ❤️ for{" "}
-            <span className="font-bold"> Olamide and Femi</span>
+            <span className="font-bold"> Olamide, Femi and baby</span>
           </a>
         </footer>
       </div>

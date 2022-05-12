@@ -34,7 +34,7 @@ const Items = ({ items }) => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <button className="w-full md:w-auto list py-2 px-10 font-bold bg-black text-yellow-gold hover:bg-yellow-500 hover:text-black font-bold rounded outline-none ">
+                  <button className="w-full md:w-auto list py-2 px-10 font-bold bg-black text-red-300 hover:bg-yellow-500 hover:text-black font-bold rounded outline-none ">
                     GIFT US
                   </button>
                 </a>

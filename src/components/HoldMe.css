@@ -1,18 +1,18 @@
 .hold-me {
-  background-image: url("https://res.cloudinary.com/onedebeos/image/upload/c_scale,f_auto,h_3925,q_auto/v1592426794/femi/Together_they_Grew__abldi4.jpg");
+  background-image: url("https://res.cloudinary.com/onedebeos/image/upload/f_auto,q_auto:low/v1652220469/ire/YMK_9176_pqgglk.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: 35% 50%;
+  background-position: 35% 20%;
 
-  box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.4);
+  box-shadow: inset 0 0 0 2000px rgba(66, 4, 4, 0.4);
   background-size: cover;
 }
 
 .hold-out {
-  background-image: url("https://res.cloudinary.com/onedebeos/image/upload/f_auto,q_auto/v1592433955/femi/hold_me-min_ghukcp.jpg");
+  background-image: url("https://res.cloudinary.com/onedebeos/image/upload/f_auto,q_auto:low/v1652220479/ire/YMK_8943_qi90fr.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: 15% 40%;
+  background-position: 35% 20%;
 
   box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.4);
   background-size: cover;
@@ -20,7 +20,7 @@
 
 @media (min-width: 768px) and (max-width: 968px) {
   .hold-out {
-    background-image: url("https://res.cloudinary.com/onedebeos/image/upload/f_auto,q_auto/v1592433955/femi/hold_me-min_ghukcp.jpg");
+    background-image: url("https://res.cloudinary.com/onedebeos/image/upload/q_auto:low/v1652220455/ire/YMK_9384b_jhwufo.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: 15% 67%;

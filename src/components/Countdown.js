@@ -34,10 +34,10 @@ const Countdown = () => {
   getTimeLeft()
 
   return (
-    <div className="thank-you text-center p-2 fixed w-full z-10 mb-8">
+    <div className="bg-red-300 text-center p-2 fixed w-full z-10 mb-8">
       <h1 className="countdown">
-        <span className="font-semibold">
-          Thank you so much for all the love you showed us!
+        <span className="font-semibold text-white">
+          Our Baby's Gift Registry
         </span>
       </h1>
     </div>

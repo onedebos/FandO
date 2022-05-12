@@ -1,16 +1,16 @@
 .bg-slider {
-  background-image: url("https://res.cloudinary.com/onedebeos/image/upload/f_auto,o_100,q_auto/v1592426772/femi/Light_and_Love__lviulp.jpg");
+  background-image: url("https://res.cloudinary.com/onedebeos/image/upload/f_auto,q_auto:low/v1652220516/ire/YMK_9010_ziqvvo.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: 35% 50%;
+  background-position: 15% 10%;
 
   box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.6);
-  background-size: cover;
+  background-size: contain;
 }
 
 @media (min-width: 768px) and (max-width: 960px) {
   .bg-slider {
-    background: url("https://res.cloudinary.com/onedebeos/image/upload/f_auto,o_100,q_auto/v1592426772/femi/Light_and_Love__lviulp.jpg")
+    background: url("https://res.cloudinary.com/onedebeos/image/upload/f_auto,q_auto:low/v1652220516/ire/YMK_9010_ziqvvo.jpg")
       no-repeat center fixed;
     box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.6);
     background-size: cover;
@@ -19,11 +19,11 @@
 
 @media (min-width: 960px) {
   .bg-slider {
-    background: url("https://res.cloudinary.com/onedebeos/image/upload/f_auto,o_100,q_auto/v1592426772/femi/Light_and_Love__lviulp.jpg");
+    background: url("https://res.cloudinary.com/onedebeos/image/upload/f_auto,q_auto:low/v1652220516/ire/YMK_9010_ziqvvo.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center center;
-    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.6);
+    background-position: 85% 15%;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.3);
     background-size: cover;
   }
 }

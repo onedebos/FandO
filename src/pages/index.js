@@ -41,7 +41,7 @@ const IndexPage = () => {
     <div>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Femi ❤️'s Olamide</title>
+        <title>Femi and Olamide's Baby Register</title>
         <link rel="canonical" href="https://olamidefemi.com" />
       </Helmet>
       <Layout>

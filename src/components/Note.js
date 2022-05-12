@@ -127,7 +127,7 @@ const Note = () => {
           <button
             type="submit"
             onClick={handleSubmit}
-            className="bg-yellow-500 p-3 rounded-md text-black font-semibold w-full md:w-3/4 mt-4"
+            className="bg-red-500 p-3 rounded-md text-white font-semibold w-full md:w-3/4 mt-4"
           >
             Send message
           </button>
